@@ -1,7 +1,7 @@
 {
-  "name": "redux-app",
+  "name": "redux_sample_task",
   "version": "1.0.0",
-  "description": "simple redux app",
+  "description": "redux_sample_task",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,8 +13,8 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-redux": "^5.0.6",
-    "redux": "^3.7.2"
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
