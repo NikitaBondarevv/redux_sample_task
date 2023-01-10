@@ -14,8 +14,8 @@ export const date = (state = new Date().getFullYear(), action) => {
     case MULTIPLY_YEAR: return state * 2
   }
 
-  return state;
-};
+  return state
+}
 
 export const todo = (state = [], action) => {
   switch (action.type) {
@@ -25,5 +25,5 @@ export const todo = (state = [], action) => {
     }
   }
 
-  return state;
-};
+  return state
+}
