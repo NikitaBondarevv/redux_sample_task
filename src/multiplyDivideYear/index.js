@@ -7,7 +7,7 @@ export const MultiplyDivideYear = () => {
   const click = (add) => dispatch(add ? multiplyYear() : divideYear())
 
   return (
-    <div>
+    <div style={{ marginTop: '10px' }}>
       <button onClick={() => click()}>Divide year</button>&nbsp;&nbsp;
       <button onClick={() => click(true)}>Multiply year</button>
     </div>
