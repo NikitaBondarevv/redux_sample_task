@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux'
 
 import { decYear, incYear } from '../actions'
 
-export const ButtonsForYear = () => {
+export const IncreaseDecreaseYear = () => {
   const dispatch = useDispatch()
   const click = (add) => dispatch(add ? incYear() : decYear())
 
